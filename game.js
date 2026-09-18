@@ -87,7 +87,7 @@ const playGame = () => {
 // Start the game and store the final result.
 const gameResult = playGame(); 
 // Display the Game winner.
-console.log(gameResult);
+alert(gameResult);
 
 /*
 Note:
