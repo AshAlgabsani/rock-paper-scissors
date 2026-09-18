@@ -72,8 +72,8 @@ const playGame = () => {
         // play one round and store the result.
         const roundResult = playRound(humanSelection, computerSelection);
         // display the winner of the current round.
-        // later will display it to the user using DOM Manipulation.
-        console.log(roundResult)
+        // later this will be replaced using DOM Manipulation.
+        alert(roundResult);
     }
     // Determine the game winner after all five rounds!
     if (humanScore > computerScore) {
